@@ -1,0 +1,16 @@
+How I Can Import/Commit from local to github:
+.........................................................
+* Cretae a repository in github say repo1
+* Clone it to your local desktop directory 
+* Add some files say Scripts/script1.js
+
+
+
+**Usin Command(git shell):
+.........................................
+* Change directory to the repo1 folder
+
+* Run these commands:
+  git add . 
+  git commit -m "Add existing file"
+  git push origin master  //master is the branch name.it may be other branch
